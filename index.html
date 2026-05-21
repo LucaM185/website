@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Luca Miglioli</title>
+<meta name="description" content="Luca Miglioli — Engineer building real-time systems, AI from scratch, and image processing tools." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&family=Instrument+Serif&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<!-- Animated background -->
+<div class="bg-grid"></div>
+<div class="bg-glow glow-1"></div>
+<div class="bg-glow glow-2"></div>
+<div class="bg-glow glow-3"></div>
+
+<!-- Nav -->
+<nav class="nav">
+  <a href="#top" class="nav-logo">LM</a>
+  <ul class="nav-links">
+    <li><a href="#realtime">Real-Time Data</a></li>
+    <li><a href="#ai">AI</a></li>
+    <li><a href="#feather">Feather</a></li>
+    <li><a href="#ahrs">Embedded</a></li>
+  </ul>
+  <a href="https://github.com/LucaM185" target="_blank" rel="noopener" class="nav-github">
+    <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true"><path d="M12 .5C5.73.5.86 5.37.86 11.64c0 4.92 3.19 9.09 7.61 10.56.56.1.77-.24.77-.54v-2.1c-3.1.67-3.75-1.32-3.75-1.32-.51-1.29-1.25-1.63-1.25-1.63-1.02-.7.08-.69.08-.69 1.13.08 1.72 1.16 1.72 1.16 1 1.71 2.63 1.22 3.27.93.1-.73.39-1.22.71-1.5-2.47-.28-5.07-1.24-5.07-5.5 0-1.21.43-2.2 1.14-2.97-.11-.28-.49-1.4.11-2.91 0 0 .93-.3 3.06 1.13.89-.25 1.84-.37 2.79-.37s1.9.12 2.79.37c2.13-1.44 3.06-1.13 3.06-1.13.61 1.51.22 2.63.11 2.91.71.77 1.14 1.76 1.14 2.97 0 4.27-2.6 5.21-5.08 5.49.4.34.76 1.02.76 2.06v3.05c0 .3.21.65.78.54 4.41-1.47 7.6-5.64 7.6-10.56C23.14 5.37 18.27.5 12 .5z"/></svg>
+    <span>Github</span>
+  </a>
+</nav>
+
+<!-- Hero -->
+<header id="top" class="hero">
+  <div class="hero-inner reveal">
+    <div class="eyebrow">
+      <span class="status-dot"></span>
+      <span>Expanding my network</span>
+    </div>
+    <h1 class="hero-title">Luca Miglioli</h1>
+    <p class="hero-sub">
+      Building <em>real-time systems</em>, <em>AI from scratch</em>,
+      and <em>image processing</em> tools that turn hours into seconds.
+    </p>
+    <div class="hero-cta">
+      <a href="#realtime" class="btn btn-primary">See my work
+        <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+      </a>
+      <a href="https://github.com/LucaM185" target="_blank" rel="noopener" class="btn btn-ghost">Github</a>
+    </div>
+  </div>
+  <div class="scroll-hint" aria-hidden="true">
+    <span>scroll</span>
+    <div class="scroll-line"></div>
+  </div>
+</header>
+
+<!-- Section 1: Real-Time Data -->
+<section id="realtime" class="section">
+  <div class="section-inner">
+    <div class="content reveal">
+      <div class="tag">01 — Real-Time Data</div>
+      <h2>Millions of UDP datapoints, processed in real time.</h2>
+      <p>
+        Extraction of real-time information from <strong>UDP streams of millions
+        of datapoints per hour</strong>. The result: a management dashboard that
+        responds in <strong>seconds instead of hours</strong>.
+      </p>
+      <ul class="bullets">
+        <li>High-throughput UDP ingestion pipeline</li>
+        <li>Sub-second analytical queries</li>
+        <li>From batch ETL nightmares to live insight</li>
+      </ul>
+    </div>
+    <div class="media reveal">
+      <div class="media-frame">
+        <img src="images/realtime.jpg" alt="Real-time dashboard" loading="lazy" onerror="this.parentElement.classList.add('placeholder'); this.remove();" />
+        <span class="placeholder-text">Early Fixup Picture</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Section 2: AI -->
+<section id="ai" class="section section-alt">
+  <div class="section-inner reverse">
+    <div class="media reveal">
+      <div class="media-frame">
+        <img src="images/ai.jpg" alt="MathStudio video screenshot" loading="lazy" onerror="this.parentElement.classList.add('placeholder'); this.remove();" />
+        <span class="placeholder-text">MathStudio Video</span>
+      </div>
+    </div>
+    <div class="content reveal">
+      <div class="tag">02 — Extensive AI Knowledge</div>
+      <h2>Transformers, implemented from scratch.</h2>
+      <p>
+        Deep understanding of modern AI internals — not just calling APIs.
+      </p>
+      <ul class="chips">
+        <li>Attention</li>
+        <li>MoE layers</li>
+        <li>KV cache</li>
+        <li>From scratch</li>
+      </ul>
+      <p class="muted">
+        Inference deployed on <strong>NVIDIA DGX (128&nbsp;GB)</strong>.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- Section 3: Feather -->
+<section id="feather" class="section">
+  <div class="section-inner">
+    <div class="content reveal">
+      <div class="tag">03 — Feather</div>
+      <h2><span class="serif italic">Feather</span> — a Lightroom / Photoshop competitor.</h2>
+      <p>
+        Optimization of image-processing algorithms in <strong>real time</strong>,
+        with a focus on <strong>UI/UX</strong> and <strong>AI accelerated on Metal</strong>.
+      </p>
+      <ul class="bullets">
+        <li>Real-time GPU image pipeline</li>
+        <li>Native Metal AI acceleration</li>
+        <li>Crafted UI/UX, designed for creators</li>
+      </ul>
+    </div>
+    <div class="media reveal">
+      <div class="media-frame">
+        <img src="images/feather.jpg" alt="Feather app" loading="lazy" onerror="this.parentElement.classList.add('placeholder'); this.remove();" />
+        <span class="placeholder-text">Feather App</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Section 4: AHRS / Embedded -->
+<section id="ahrs" class="section section-alt">
+  <div class="section-inner reverse">
+    <div class="media reveal">
+      <div class="media-frame">
+        <img src="images/ahrs.jpg" alt="Embedded AHRS device" loading="lazy" onerror="this.parentElement.classList.add('placeholder'); this.remove();" />
+        <span class="placeholder-text">Embedded Device</span>
+      </div>
+    </div>
+    <div class="content reveal">
+      <div class="tag">04 — Embedded · AHRS</div>
+      <h2>High-frequency IMU, rock-stable orientation.</h2>
+      <p>
+        Real-time high-frequency <strong>IMU readout</strong> for
+        <strong>stable AHRS estimation over time</strong>.
+        Full stack: <strong>CAD, 3D print, embedded firmware</strong>.
+      </p>
+      <ul class="chips">
+        <li>CAD</li>
+        <li>3D Print</li>
+        <li>Embedded C++</li>
+        <li>Sensor Fusion</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <div class="footer-logo serif italic">Luca Miglioli</div>
+      <p class="muted">Building things that are fast, precise, and a little bit beautiful.</p>
+    </div>
+    <div class="footer-links">
+      <a href="https://github.com/LucaM185" target="_blank" rel="noopener">Github ↗</a>
+    </div>
+  </div>
+  <div class="footer-bottom muted">© <span id="year"></span> Luca Miglioli</div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
