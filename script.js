@@ -33,7 +33,7 @@ const i18n = {
     s4_desc: 'Real-time high-frequency <strong>IMU readout</strong> for <strong>stable AHRS estimation over time</strong>. Full stack: <strong>CAD, 3D print, embedded firmware</strong>.',
     s4_chip1: 'CAD', s4_chip2: '3D Print', s4_chip3: 'Embedded C++', s4_chip4: 'Sensor Fusion',
     s4_placeholder: 'Embedded Device',
-    footer_tagline: 'Building things that are fast, precise, and a little bit beautiful.',
+    footer_tagline: 'Building things that are fast, precise and reliable.<br>UI/UX is also a focus',
     footer_link: 'Github ↗'
   },
   it: {
@@ -66,7 +66,7 @@ const i18n = {
     s4_desc: 'Lettura IMU ad alta frequenza in <strong>tempo reale</strong> per <strong>stima AHRS stabile nel tempo</strong>. Full stack: <strong>CAD, stampa 3D, firmware embedded</strong>.',
     s4_chip1: 'CAD', s4_chip2: 'Stampa 3D', s4_chip3: 'C++ Embedded', s4_chip4: 'Sensor Fusion',
     s4_placeholder: 'Dispositivo Embedded',
-    footer_tagline: 'Costruisco cose veloci, precise, e un po\' belle.',
+    footer_tagline: 'Costruisco cose veloci, precise e affidabili.<br>UI/UX è anche un focus',
     footer_link: 'Github ↗'
   }
 };
@@ -93,7 +93,7 @@ document.querySelectorAll('.lang-btn').forEach(btn => {
   btn.addEventListener('click', () => setLang(btn.dataset.setLang));
 });
 
-setLang(localStorage.getItem('lang') || 'en');
+setLang(localStorage.getItem('lang') || 'it');
 
 // Reveal on scroll
 const io = new IntersectionObserver((entries) => {
